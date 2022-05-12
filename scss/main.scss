@@ -1,0 +1,233 @@
+.encabezado-primero {
+    color: rgb(243, 248, 248);
+    font-size: 7rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sitio-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
+.inicio {
+    background-image: url(./imagen/header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(195, 229, 159);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    color: aliceblue;
+}
+
+.usuario {
+    color: aliceblue;
+    border-style: dotted;
+}
+
+.latoma {
+    color: aliceblue;
+    background-color: rgb(194, 171, 101);
+    text-align: initial;
+    width: 100%;
+}
+
+.tienda {
+    color: rgb(235, 31, 170);
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tienda-atencion {
+    font-size: 1.5rem;
+    background-color: rgb(143, 11, 11);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    animation: cambio 20s infinite alternate;
+
+}
+
+.slider ul {
+    display: flex;
+    padding: 0%;
+    width: 100%;
+    animation: cambio 20s infinite alternate;
+
+
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+
+}
+
+.slider img {
+    width: 99%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0%;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.encabezado-tienda {
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#triangulo {
+    background: url(./imagen/triangulo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+
+}
+
+.inter {
+    color: rgb(237, 31, 158);
+    font-size: 7rem;
+    font-weight: 800;
+    background-image: url(./imagen/foto2.jpg);
+    background-size: contain;
+
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.como-funciona {
+    font-weight: 700;
+    font-size: 4rem;
+    background-color: blueviolet;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.tabla-ordenada {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*html de vender*/
+.body-vender {
+    background-color: #875784;
+}
+.encabe-vender {
+    color: rgb(228, 109, 232);
+    background-color: #67295e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+    
+    
+}
+
+/* index footer abajo de todo*/
+footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(127, 197, 170);
+    background-size: cover;
+}
+
+.conteiner-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.terms {
+
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.magic {
+    background-color: blueviolet;
+    height: 100px;
+
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: space-evenly;
+
+ 
+}
+.magic div {
+    background-color: blue;
+    border: solid 2px #ef1313;
+}
